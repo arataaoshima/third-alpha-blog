@@ -59,8 +59,13 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.23)
+    font-awesome-rails (4.7.0.4)
+      railties (>= 3.2, < 6.0)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+    google-analytics-rails (1.1.1)
+    gretel (3.0.9)
+      rails (>= 3.1.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     jbuilder (2.7.0)
@@ -82,7 +87,7 @@ GEM
     multi_json (1.13.1)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
-    pg (1.0.0)
+    pg (0.21.0)
     rack (1.6.10)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -167,9 +172,12 @@ DEPENDENCIES
   bootstrap-sass (~> 3.3.7)
   byebug
   coffee-rails (~> 4.1.0)
+  font-awesome-rails
+  google-analytics-rails
+  gretel
   jbuilder (~> 2.0)
   jquery-rails
-  pg
+  pg (~> 0.11)
   rails (= 4.2.5)
   rails_12factor
   sass-rails (~> 5.0)
@@ -181,4 +189,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.15.4
+   1.16.2
