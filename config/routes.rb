@@ -3,6 +3,9 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
   get "/" =>"articles#home"
   resources :articles
+  
+  get "signup", to: "users#new"
+  post "users", to: "users#create"
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
